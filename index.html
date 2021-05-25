@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Teste Msg de aviso</title>
+</head>
+
+<body>
+  <div class=box>
+    <div>
+      <p>Clique no botão para exibir a caixa de confirmação.</p>
+    </div>
+
+    <div><button onclick="funcao1()">Clique aqui</button>   
+
+
+    <p id="demo"></p>
+  
+
+  <script>
+    function funcao1() {
+      var x;
+      var r = confirm("Escolha um valor!");
+      if (r == true) {
+        x = "você pressionou OK!";
+      }
+      else {
+        x = "Você pressionou Cancelar!";
+      }
+      document.getElementById("demo").innerHTML = x;
+    }
+  </script>
+
+</body>
+
+</html>
