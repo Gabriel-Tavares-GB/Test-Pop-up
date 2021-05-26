@@ -4,7 +4,19 @@
 }
 
 body{
-    width: 100%;
-    height: auto;
-    background-color: rgb(50, 216, 194);
+    
+    height: 100vh;
+    background-color: rgb(216, 50, 86);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .box{
+    background: rgb(59, 216, 216);
+    width: 30%;
+    min-width: 300px;
+    padding: 40px;
+    box-decoration-break: 10px solid #988b79;
+    box-shadow: 0 0 0 10px rgb(148, 139, 139);
    }

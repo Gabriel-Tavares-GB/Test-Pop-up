@@ -6,34 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Teste Msg de aviso</title>
+  <title>Teste Pop-up</title>
 </head>
 
 <body>
   <div class=box>
     <div>
-      <p>Clique no botão para exibir a caixa de confirmação.</p>
+      <p>Clique no botão para exibir Pop-up (Confirmação!).</p>
     </div>
 
-    <div><button onclick="funcao1()">Clique aqui</button>   
+    <div><button onclick="funcao1()">Clique aqui</button>
 
 
-    <p id="demo"></p>
-  
+      <p id="demo"></p>
 
-  <script>
-    function funcao1() {
-      var x;
-      var r = confirm("Escolha um valor!");
-      if (r == true) {
-        x = "você pressionou OK!";
-      }
-      else {
-        x = "Você pressionou Cancelar!";
-      }
-      document.getElementById("demo").innerHTML = x;
-    }
-  </script>
+
+      <script src="script.js">
+
+      </script>
 
 </body>
 
